@@ -49,3 +49,6 @@ mongosh
 For more information on connecting using mongosh, such as to connect to a mongod instance running on a different host and/or port, see the mongosh documentation.
 
 To help you start using MongoDB, MongoDB provides Getting Started Guides in various driver editions. For the driver documentation, see Start Developing with MongoDB.
+
+
+db.createUser({ user: "cse-512-user", pwd:"cse-512-password", roles:[{role:"root",db:"admin"}]})
